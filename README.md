@@ -20,16 +20,7 @@ It features a clean, aesthetic UI with **dynamic pastel backgrounds**, **dark mo
 ---
 
 ## 🖼️ Screenshots
-
-
-
-> 📌 **How to add screenshots**
-> 1. Create a folder named `screenshots` in the project root  
-> 2. Add images:
->    - `light-mode.png`
->    - `dark-mode.png`
->    - `location-mode.png`
-> 3. Commit and push them to GitHub
+<img width="1897" height="868" alt="image" src="https://github.com/user-attachments/assets/db7e603e-6e84-484d-857e-50e141e4b56e" />
 
 ---
 
