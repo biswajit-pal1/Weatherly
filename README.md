@@ -1,26 +1,31 @@
 # 🌦️ Weatherly
 
 **Weatherly** is a modern, responsive weather application that delivers real-time weather information using both **city-based search** and **current location (GPS)**.  
-It features a clean, aesthetic UI with **dynamic pastel backgrounds**, **dark mode**, and a **glassmorphism design**, built using React and Tailwind CSS.
+It features a **premium UI**, **dynamic pastel backgrounds**, **dark mode**, and **forecast insights**, built with React and Tailwind CSS.
 
-> _Simple, elegant, and intuitive weather — wherever you are._
+> _Weather, redesigned with clarity and calm aesthetics._
 
 ---
 
 ## ✨ Features
 
-- 🌍 City-based weather search  
-- 📍 Current location weather (GPS)  
-- 🎨 Dynamic background colors based on temperature  
-- 🌙 Dark / Light mode toggle  
-- 🧊 Glassmorphism UI  
-- 📱 Fully responsive (mobile-first)  
-- ⚡ Fast and lightweight  
+- 🌍 **City-based weather search**
+- 📍 **Auto-detect current location on first load**
+- 📍 Manual “Use Location” button
+- 🎨 **Dynamic pastel backgrounds** based on temperature
+- 🌙 **Dark / Light mode toggle**
+- 🌡️ **Celsius / Fahrenheit toggle**
+- 🕒 **Last updated timestamp**
+- 📅 **5-day weather forecast**
+- 🧊 **Glassmorphism UI**
+- 📱 **Fully responsive (mobile-first)**
+- ⚡ Fast and lightweight
 
 ---
 
 ## 🖼️ Screenshots
-<img width="1897" height="868" alt="image" src="https://github.com/user-attachments/assets/db7e603e-6e84-484d-857e-50e141e4b56e" />
+<img width="1913" height="867" alt="image" src="https://github.com/user-attachments/assets/18dc0e81-a623-461f-8746-ddc2619543a0" />
+
 
 ---
 
@@ -66,19 +71,20 @@ npm run dev
 - **City Mode** → Fetches weather using the city name  
 - **Location Mode** → Uses the browser Geolocation API  
 - The UI clearly indicates which mode is active  
-- Background colors adapt to temperature:
+- Background color adapts based on temperature:
   - 🔥 Hot → Peach / Coral tones  
   - ❄️ Cold → Icy Cyan / Mint tones  
   - 🌤️ Moderate → Sky Blue / Lavender tones  
+- Forecast is calculated using OpenWeather’s 3‑hour interval data (one per day)
 
 ---
 
-## 📌 Future Enhancements
+## 📌 Completed Enhancements
 
-- 📅 5-day weather forecast  
-- 🕒 Last updated timestamp  
-- 🌐 Auto-detect location on first load  
-- 🌡️ Celsius / Fahrenheit toggle  
+✔ Auto-detect location on first load  
+✔ Celsius / Fahrenheit unit toggle  
+✔ Last updated timestamp  
+✔ 5-day weather forecast  
 
 ---
 
@@ -91,7 +97,7 @@ This project is licensed under the **MIT License**.
 ## 🙌 Acknowledgements
 
 - Weather data provided by **OpenWeather API**
-- UI inspired by modern iOS and glassmorphism design patterns
+- UI inspired by modern iOS, Notion, and glassmorphism design patterns
 
 ---
 
